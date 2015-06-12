@@ -24,6 +24,7 @@ public class MainActivity extends SimpleBaseGameActivity {
 
     static int CAMERA_WIDTH = 800;
     static int CAMERA_HEIGHT = 480;
+    final int f=10;
     ITextureRegion mBackgroundTextureRegion, mTowerTextureRegion, mRing1, mRing2, mRing3;
     private Sprite mTower1, mTower2, mTower3;
     private Stack mStack1, mStack2, mStack3;
